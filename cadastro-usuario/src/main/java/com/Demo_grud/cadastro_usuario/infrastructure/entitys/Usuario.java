@@ -11,11 +11,14 @@ import lombok.*;
 @Table(name = "usuario")
 @Entity
 
-public class Usuarios {
+public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer Id;
 
     @Column(name = "email", unique = true)
     private String email;
+
+    @Column(name = "name")
+    private String nome;
 }
