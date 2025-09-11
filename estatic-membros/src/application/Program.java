@@ -23,7 +23,7 @@ public class Program {
         double v = Calculator.volume(radius);
 
         System.out.printf("Circumference: %.2f%n", c);
-        System.out.printf("Volume: %.2f%n", v);
+        System.out.printf("VOLUME: %.2f%n", v);
         System.out.printf("pi value: %.2f%n", Calculator.PI);
 
         sc.close();
